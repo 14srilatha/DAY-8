@@ -129,7 +129,7 @@ function inputs(userName, bookName, type) {
       displayObj.alertuser(
         "danger",
         "Oops!",
-        Book is already issued by ${displayObj.issuedUser});
+        Book ,is ,already, issued,by,$,{displayObj,issuedUser});
       displayObj.clear();
     } else {
       displayObj.alertuser("danger", "Oops!", "Book is not issued");
